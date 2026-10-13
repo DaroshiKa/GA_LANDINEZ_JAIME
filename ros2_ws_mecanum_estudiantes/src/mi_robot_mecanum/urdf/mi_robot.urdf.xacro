@@ -81,7 +81,6 @@
   <xacro:rueda prefijo="tra_der" x_signo="-1" y_signo="-1"/>
 
   <!-- ===================== RPLIDAR A3 (Parte 2) ===================== -->
-  <!-- RPLIDAR A3M1: carcasa aproximada como cilindro Ø76 mm x 41 mm, 190 g. -->
   <link name="lidar_link">
     <visual><geometry><cylinder radius="0.038" length="0.041"/></geometry>
       <material name="lidar_black"><color rgba="0.08 0.08 0.08 1"/></material></visual>
@@ -103,7 +102,7 @@
       <lidar>
         <scan>
           <horizontal>
-            <samples>3200</samples>          <!-- 16000 muestras/s ÷ 5 vueltas/s -->
+            <samples>3200</samples> 
             <resolution>1</resolution>
             <min_angle>-3.14159265359</min_angle>
             <max_angle>3.14159265359</max_angle>
@@ -120,7 +119,7 @@
   </gazebo>
 
   <!-- ===================== Orbbec Astra (Parte 2) ===================== -->
-  <!-- Astra S: 165 x 30 x 40 mm (ancho x alto x profundidad), 310 g. -->
+
   <link name="camara_link">
     <visual><geometry><box size="0.04 0.165 0.03"/></geometry>
       <material name="camera_black"><color rgba="0.12 0.12 0.12 1"/></material></visual>
