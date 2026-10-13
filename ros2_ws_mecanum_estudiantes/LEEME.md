@@ -1,6 +1,6 @@
 # Examen Robótica Móvil — Robot Mecanum (ROS 2 Jazzy + Gazebo Harmonic)
 
-El workspace de esta copia está configurado para la **variante C** del examen.
+El workspace está configurado para la variante C del examen.
 
 | Paquete | Contenido |
 |---|---|
